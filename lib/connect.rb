@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
+require 'dotenv'
 require 'faraday'
 require 'json'
+
+Dotenv.load
 
 module Connect
   URL = "https://api.vk.com/method/"
@@ -19,4 +22,3 @@ module Connect
     )
   end
 end
-
