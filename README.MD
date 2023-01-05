@@ -1,6 +1,5 @@
 # VK_API
 
-
 ## [api](https://dev.vk.com/reference):
 
 ### [Friends](https://dev.vk.com/method/friends): 
@@ -29,4 +28,10 @@ https://vk.cc/ckojn7
 1. VERSION=5.131
 2. TOKEN=
 3. USER_AGENT=
+```
+
+### Start
+
+```
+ruby main.rb
 ```
